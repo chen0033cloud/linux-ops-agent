@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# 密钥（绝不提交）
+# 密钥
 .env
 
 # 自动生成产物（由 fetch_tldr.py / rag/ingest.py 生成，不要提交）
