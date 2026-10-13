@@ -1,0 +1,11 @@
+# 说明：本项目实际用 uv 管理依赖（见 pyproject.toml），此文件供 pip 安装时参考
+# 注意：langchain 已升级到 1.x，文本切分器拆到了独立包 langchain-text-splitters
+langchain>=1.0
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-huggingface>=0.1
+langchain-openai>=0.2
+langgraph>=0.2
+faiss-cpu>=1.8
+sentence-transformers>=3.0
+requests>=2.31

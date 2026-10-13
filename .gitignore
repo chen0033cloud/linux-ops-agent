@@ -1,0 +1,19 @@
+# 虚拟环境与 IDE
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+
+# 密钥（绝不提交）
+.env
+
+# 自动生成产物（由 fetch_tldr.py / rag/ingest.py 生成，不要提交）
+knowledge_base/tldr/
+vector_store/
+logs/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
